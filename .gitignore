@@ -1,0 +1,45 @@
+# --- Archivos binarios y objetos ---
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# --- Carpetas de compilación ---
+/build/
+/bin/
+/dist/
+/Debug/
+/Release/
+
+# --- Archivos de depuración ---
+*.pdb
+*.idb
+*.dSYM/
+
+# --- Archivos temporales ---
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# --- Configuración de VS Code ---
+.vscode/
+# (opcional) si quieres mantener tus ajustes de tareas o launch.json, quita la línea anterior
+# o agrega reglas más específicas, por ejemplo:
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+
+# --- Archivos de CMake (si usas CMake) ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
