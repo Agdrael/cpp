@@ -30,12 +30,7 @@
 
 # --- Configuración de VS Code ---
 .vscode/
-# (opcional) si quieres mantener tus ajustes de tareas o launch.json, quita la línea anterior
-# o agrega reglas más específicas, por ejemplo:
-# .vscode/*
-# !.vscode/settings.json
-# !.vscode/tasks.json
-# !.vscode/launch.json
+
 
 # --- Archivos de CMake (si usas CMake) ---
 CMakeFiles/
