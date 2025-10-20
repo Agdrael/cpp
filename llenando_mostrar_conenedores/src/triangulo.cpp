@@ -4,7 +4,7 @@
 
 void generar_triangulo()
 {
-    std::vector<auto>data{1};
+    std::vector<int>data{1};
     for (const auto number: data){
         std::cout<<number << ' ';
     }
